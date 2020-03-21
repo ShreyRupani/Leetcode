@@ -16,3 +16,5 @@ var isSameTree = function(p, q) {
     return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 }
 
+
+//Caution: if(!p) is slower than if(p == null)
